@@ -13,11 +13,11 @@ public class TestCase1_LoginToAmazon extends BaseClass
 		homepage.hoveroverOnAccountList(driver);
 		homepage.clickToSignIn();
 		
-		/*LoginPage loginpage= new LoginPage(driver);
+		LoginPage loginpage= new LoginPage(driver);
 		loginpage.enterUserName();
 		loginpage.clickOnContinue();
 		loginpage.enterPassword();
-		loginpage.clickToSignIn();*/
+		loginpage.clickToSignIn();
 		
 		
 	}

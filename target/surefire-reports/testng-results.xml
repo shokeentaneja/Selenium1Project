@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-18T13:55:21 IST" name="Suite" finished-at="2025-12-18T13:55:35 IST" duration-ms="13830">
+  <suite started-at="2025-12-22T12:54:20 IST" name="Suite" finished-at="2025-12-22T12:54:38 IST" duration-ms="18409">
     <groups>
     </groups>
-    <test started-at="2025-12-18T13:55:21 IST" name="Test" finished-at="2025-12-18T13:55:35 IST" duration-ms="13830">
+    <test started-at="2025-12-22T12:54:20 IST" name="Test" finished-at="2025-12-22T12:54:38 IST" duration-ms="18409">
       <class name="package1.Project1.TestCase1_LoginToAmazon">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:package1.Project1.TestCase1_LoginToAmazon@291ae]" started-at="2025-12-18T13:55:21 IST" name="launch" finished-at="2025-12-18T13:55:32 IST" duration-ms="10699" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:package1.Project1.TestCase1_LoginToAmazon@291ae]" started-at="2025-12-22T12:54:20 IST" name="launch" finished-at="2025-12-22T12:54:27 IST" duration-ms="7582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="withvalidCreds()[pri:0, instance:package1.Project1.TestCase1_LoginToAmazon@291ae]" started-at="2025-12-18T13:55:32 IST" name="withvalidCreds" finished-at="2025-12-18T13:55:33 IST" duration-ms="1327" status="PASS">
+        <test-method signature="withvalidCreds()[pri:0, instance:package1.Project1.TestCase1_LoginToAmazon@291ae]" started-at="2025-12-22T12:54:27 IST" name="withvalidCreds" finished-at="2025-12-22T12:54:37 IST" duration-ms="9934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withvalidCreds -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:package1.Project1.TestCase1_LoginToAmazon@291ae]" started-at="2025-12-18T13:55:33 IST" name="quit" finished-at="2025-12-18T13:55:35 IST" duration-ms="1744" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:package1.Project1.TestCase1_LoginToAmazon@291ae]" started-at="2025-12-22T12:54:37 IST" name="quit" finished-at="2025-12-22T12:54:38 IST" duration-ms="828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

@@ -19,24 +19,21 @@ public class LoginPage
 		@FindBy(name="password")
 		private WebElement password;
 		
-		@FindBy(id="signInSubmit']")
+		@FindBy(id="signInSubmit")
 		private WebElement signin;
 		
 		public void enterUserName()
 		{
 			username.sendKeys("shokeentaneja06@gmail.com");
-			
 		}
 		
 		public void clickOnContinue()
 		{
 			continuebutton.click();
-			
 		}
 		
 		public void enterPassword()
 		{
-			
 			password.sendKeys("Avir@12345");
 		}
 		

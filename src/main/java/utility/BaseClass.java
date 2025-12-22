@@ -1,5 +1,7 @@
 package utility;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -21,9 +23,11 @@ public class BaseClass
 		}
 		
 		driver.get("https://www.amazon.in/");
-		driver.navigate().refresh();
+		
 		driver.manage().window().maximize();
-		Thread.sleep(3000);
+		driver.navigate().refresh();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//Thread.sleep(3000);
 	}
 	
 	@AfterMethod
